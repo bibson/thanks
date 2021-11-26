@@ -7,11 +7,11 @@
       yum:
         name:
           - firewalld
-	  - httpd
-	  - mariadb-server
-	  - php
-	  - php-mysqlnd
-	state: latest 
+          - httpd
+          - mariadb-server
+          - php
+          - php-mysqlnd
+        state: latest 
 
     - name: firewalld enabled and running
       service:
